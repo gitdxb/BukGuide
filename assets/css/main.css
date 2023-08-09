@@ -588,6 +588,7 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   min-height: 500px;
+  background-size: cover;
 }
 
 .about h3 {
@@ -822,7 +823,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bgg.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1114,9 +1115,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Chefs Section
+# guides Section
 --------------------------------------------------------------*/
-.chefs .chef-member {
+.guides .chef-member {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
@@ -1125,12 +1126,12 @@ section {
   transition: 0.3s;
 }
 
-.chefs .chef-member .member-img {
+.guides .chef-member .member-img {
   position: relative;
   overflow: hidden;
 }
 
-.chefs .chef-member .member-img:after {
+.guides .chef-member .member-img:after {
   position: absolute;
   content: "";
   left: 0;
@@ -1142,7 +1143,7 @@ section {
   z-index: 1;
 }
 
-.chefs .chef-member .social {
+.guides .chef-member .social {
   position: absolute;
   right: -100%;
   top: 30px;
@@ -1153,7 +1154,7 @@ section {
   z-index: 2;
 }
 
-.chefs .chef-member .social a {
+.guides .chef-member .social a {
   transition: color 0.3s;
   color: rgba(55, 55, 63, 0.4);
   margin: 15px 12px;
@@ -1162,33 +1163,33 @@ section {
   text-align: center;
 }
 
-.chefs .chef-member .social a:hover {
+.guides .chef-member .social a:hover {
   color: rgba(55, 55, 63, 0.9);
 }
 
-.chefs .chef-member .social i {
+.guides .chef-member .social i {
   font-size: 18px;
 }
 
-.chefs .chef-member .member-info {
+.guides .chef-member .member-info {
   padding: 10px 15px 20px 15px;
 }
 
-.chefs .chef-member .member-info h4 {
+.guides .chef-member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: var(--color-secondary);
 }
 
-.chefs .chef-member .member-info span {
+.guides .chef-member .member-info span {
   display: block;
   font-size: 14px;
   font-weight: 400;
   color: rgba(33, 37, 41, 0.4);
 }
 
-.chefs .chef-member .member-info p {
+.guides .chef-member .member-info p {
   font-style: italic;
   font-size: 14px;
   padding-top: 15px;
@@ -1196,12 +1197,12 @@ section {
   color: rgba(33, 37, 41, 0.7);
 }
 
-.chefs .chef-member:hover {
+.guides .chef-member:hover {
   transform: scale(1.08);
   box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
 }
 
-.chefs .chef-member:hover .social {
+.guides .chef-member:hover .social {
   right: 8px;
   opacity: 1;
 }
